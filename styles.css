@@ -47,10 +47,19 @@ input[type="password"]:focus {
   opacity: 0.9;
 }
 
+/* .btn[type="button"] {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+} */
+
 .btn-info {
   background-color: darkblue;
   color: white;
-  padding: 6px 10px;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -61,23 +70,16 @@ input[type="password"]:focus {
   opacity: 1;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, -50%); */
-  transform: translate(-70%, -20%);
-  /* size: 20px; */
-  text-size-adjust: 100%;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  text-align: center;
-  box-sizing: border-box;
-  line-height: 1.25em;
-}
-
 .sign-up {
   background-color: white;
   border-radius: 8px;
   padding: 1.5em;
+  margin: 100px 0 22px 0;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
